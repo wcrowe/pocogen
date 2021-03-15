@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLine", "CommandLine\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T4", "T4", "{237B96FD-6934-4154-87F1-C497EC82FC21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperStoredProcAttributes", "DapperStoredProcAttributes\DapperStoredProcAttributes.csproj", "{3DF9BAFC-238E-4F67-9C48-B161D57FDA33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{53D4E16B-7A38-484C-86A5-8B8EA01EB063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53D4E16B-7A38-484C-86A5-8B8EA01EB063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53D4E16B-7A38-484C-86A5-8B8EA01EB063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF9BAFC-238E-4F67-9C48-B161D57FDA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF9BAFC-238E-4F67-9C48-B161D57FDA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF9BAFC-238E-4F67-9C48-B161D57FDA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF9BAFC-238E-4F67-9C48-B161D57FDA33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
