@@ -8,9 +8,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B25E9993-392C-4397-8B43-C91D63834C0C}"
 	ProjectSection(SolutionItems) = preProject
 		Keys.sql = Keys.sql
+		DapperPocoGen.tt = DapperPocoGen.tt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLine", "CommandLine\CommandLine.csproj", "{53D4E16B-7A38-484C-86A5-8B8EA01EB063}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "T4", "T4", "{237B96FD-6934-4154-87F1-C497EC82FC21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
