@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SimpleExample.DataLayer</RootNamespace>
     <AssemblyName>SimpleExample.DataLayer</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -81,7 +81,7 @@
     </None>
     <None Include="packages.config" />
     <None Include="StoredProcs.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
+      <Generator>TextTemplatingFilePreprocessor</Generator>
       <LastGenOutput>StoredProcs.cs</LastGenOutput>
     </None>
   </ItemGroup>
@@ -94,6 +94,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ManualExample.tt</DependentUpon>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\SqlSharpener\SqlSharpener.csproj">
+      <Project>{ef5b5fb1-4e44-491f-a50d-951f95674c04}</Project>
+      <Name>SqlSharpener</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
